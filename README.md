@@ -21,7 +21,7 @@ Through this extension, external applications can follow the OpenID Connect prot
     <img width="1692" alt="Image" src="https://github.com/user-attachments/assets/ab57a011-b9d1-4fa4-b399-8a65a6f27585" />
 
 *   **Provider Settings Page**:
-    <img width="1693" alt="Image" src="https://github.com/user-attachments/assets/666801bf-9796-467b-8675-165b66f6805f" />
+    <img width="1754" alt="image" src="https://github.com/user-attachments/assets/bf885d73-5990-4a28-982e-0079e2891571" />
 
 *   **User Authorization Logs Page**:
     <img width="1693" alt="Image" src="https://github.com/user-attachments/assets/042c4cc4-1e86-4b3f-9001-f80b33692bd4" />
@@ -29,15 +29,7 @@ Through this extension, external applications can follow the OpenID Connect prot
 ---
 
 ## Video Demo
-
-<iframe
-  src="https://player.vimeo.com/video/1086840877"
-  width="640"
-  height="360"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-  title="2025-05-23 00-29-42">
-</iframe>
+[Click me to watch the video](https://player.vimeo.com/video/1086840877)
 
 ---
 
