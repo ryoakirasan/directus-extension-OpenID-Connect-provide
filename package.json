@@ -1,5 +1,5 @@
 {
-  "name": "directus-extension-OpenID-Connect-provide",
+  "name": "directus-extension-openid-connect-provide",
   "description": "Using Directus as an OpenID Connect service provider",
   "icon": "extension",
   "version": "1.0.0",
