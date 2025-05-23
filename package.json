@@ -1,6 +1,9 @@
 {
   "name": "directus-extension-openid-connect-provide",
   "description": "Using Directus as an OpenID Connect service provider",
+  "homepage": "https://github.com/ryoakirasan/directus-extension-openid-connect-provide",
+  "author": "ryoakirasan",
+  "license": "MIT",
   "icon": "extension",
   "version": "1.0.0",
   "keywords": [
