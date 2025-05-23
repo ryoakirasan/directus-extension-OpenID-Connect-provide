@@ -28,7 +28,7 @@ Through this extension, external applications can follow the OpenID Connect prot
 
 ---
 
-## Video Demo
+## Video Example
 [Click me to watch the video](https://player.vimeo.com/video/1086840877)
 
 ---
