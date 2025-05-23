@@ -1,0 +1,66 @@
+{
+  "name": "directus-extension-OpenID-Connect-provide",
+  "description": "Using Directus as an OpenID Connect service provider",
+  "icon": "extension",
+  "version": "1.0.0",
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-extension-bundle"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "directus:extension": {
+    "type": "bundle",
+    "path": {
+      "app": "dist/app.js",
+      "api": "dist/api.js"
+    },
+    "entries": [
+      {
+        "type": "hook",
+        "name": "oidc-hook",
+        "source": "src/oidc-hook/index.ts"
+      },
+      {
+        "type": "endpoint",
+        "name": "oidc-endpoint",
+        "source": "src/oidc-endpoint/index.ts"
+      },
+      {
+        "type": "module",
+        "name": "setting-page",
+        "source": "src/setting-page/index.ts"
+      }
+    ],
+    "sandbox": {
+      "enabled": true,
+      "requestedScopes": {}
+    },
+    "host": "^10.10.0"
+  },
+  "scripts": {
+    "build": "directus-extension build",
+    "dev": "directus-extension build -w --no-minify",
+    "link": "directus-extension link",
+    "validate": "directus-extension validate",
+    "add": "directus-extension add"
+  },
+  "devDependencies": {
+    "@directus/extensions-sdk": "13.0.4"
+  },
+  "dependencies": {
+    "@directus/extensions": "^3.0.4",
+    "@directus/types": "^13.1.0",
+    "@types/node": "^22.14.0",
+    "accept-language-parser": "^1.5.0",
+    "body-parser": "^2.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-sass": "^9.0.0",
+    "typescript": "^5.8.3",
+    "vue": "^3.5.13",
+    "vue-i18n": "^11.1.3"
+  }
+}
