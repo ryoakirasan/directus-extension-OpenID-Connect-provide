@@ -37,7 +37,7 @@ Through this extension, external applications can follow the OpenID Connect prot
 
 ### 1. OIDC Core Endpoint Implementation
 This extension implements the standard endpoints defined in the OpenID Connect Core specification:
-*   **Discovery Endpoint (`/.well-known/openid-configuration`)**: Provides OIDC service metadata for easy client auto-configuration.
+*   **Discovery Endpoint (`/oidc-provider/.well-known/openid-configuration`)**: Provides OIDC service metadata for easy client auto-configuration.
 *   **Authorization Endpoint (`/oidc-provider/authorize`)**: Handles user authentication requests and issues Authorization Codes.
 *   **Token Endpoint (`/oidc-provider/token`)**: Exchanges Authorization Codes or Refresh Tokens for Access Tokens, ID Tokens, and Refresh Tokens.
 *   **UserInfo Endpoint (`/oidc-provider/userinfo`)**: Clients use Access Tokens to retrieve basic information about the current logged-in user.
